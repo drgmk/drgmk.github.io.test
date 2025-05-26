@@ -1,12 +1,8 @@
 main:
-  - title: "computing"
-    url: /computing/
   - title: "publications"
     url: /pub/
   - title: "sdb"
     url: /sdb/
-  - title: "teaching"
-    url: /teaching/
   - title: "tools"
     url: /tools/
   # - title: "cv misc."
