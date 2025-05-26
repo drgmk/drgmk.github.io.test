@@ -3,6 +3,7 @@ layout: single
 permalink: /computing/
 ---
 
+# Computing
 
 ## Warwick SCRTP
 

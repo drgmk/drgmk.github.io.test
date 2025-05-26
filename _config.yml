@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale : "en-GB"
 title: drgmk
 email: grantkennedy@gmail.com
 description: Astronomer. Data Scientist. Biologist?
@@ -57,7 +58,14 @@ plugins:
 author:
   # name   : "Grant Kennedy"
   avatar : "/assets/images/circumbinary_disk.jpg"
-  bio    : "astronomer.\ndata scientist.\nbiologist?"
+  bio    : |-
+    "roadie."
+
+    "astronomer."
+    
+    "data scientist."
+    
+    "biologist?"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
