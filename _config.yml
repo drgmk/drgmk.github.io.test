@@ -58,14 +58,10 @@ plugins:
 author:
   # name   : "Grant Kennedy"
   avatar : "/assets/images/circumbinary_disk.jpg"
-  bio    : |-
-    "roadie."
-
-    "astronomer."
-    
-    "data scientist."
-    
-    "biologist?"
+  bio : |-
+    astronomer.
+    data scientist.   
+    biologist?
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
