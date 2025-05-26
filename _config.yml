@@ -20,7 +20,8 @@ description: Astronomer. Data Scientist. Biologist?
 github_username: drgmk
 minimal_mistakes_skin: default
 search: # true
-baseurl: "/info" # the subpath of your site, e.g. "/blog"
+url: https://www.drgmk.com/drgmk.github.io.test
+# baseurl: "/info" # the subpath of your site, e.g. "/blog"
 
 # Build settings
 markdown: kramdown
@@ -54,14 +55,13 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-titles-from-headings
 
 author:
   # name   : "Grant Kennedy"
   avatar : "/assets/images/circumbinary_disk.jpg"
   bio : |-
-    astronomer.
-    data scientist.   
-    biologist?
+    astronomer.</br>data scientist.</br>biologist?
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -124,3 +124,8 @@ defaults:
 # tag_archive:
 #   type: liquid
 #   path: /tags/
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
