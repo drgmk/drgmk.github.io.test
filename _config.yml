@@ -60,8 +60,7 @@ plugins:
 author:
   # name   : "Grant Kennedy"
   avatar : "/assets/images/circumbinary_disk.jpg"
-  bio : |-
-    astronomer.<br>data scientist.<br>biologist?
+  bio : astronomer.<br>data scientist.<br>biologist?
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
